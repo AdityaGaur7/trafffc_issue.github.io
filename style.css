@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    word-wrap: break-word;
+}
+a{
+    color: black;
+}
+/* Navigation bar */
+.nav_bar{
+    display: flex;
+    padding:1vh 1vw;
+    border: 1px solid black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 7%;
+    margin-right: auto;
+    margin-bottom: 4vh;
+
+}
+#img2{
+    margin-bottom: 15vh;
+    height: 20vh;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    transition:0.3s ease-in;
+}
+.links:hover{
+    background-color: rgb(158, 3, 3);
+    color: white;
+}
+/* slideshow here */
+.slide_show{
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 98vw;
+    margin: 1vh 1vw;
+    border-radius: 15px;
+    background: url('img/WhatsApp\ Image\ 2023-05-02\ at\ 14.59.39.jpg');
+    /* background-color: aquamarine; */
+}
+.myslides{
+    display: none;
+}
+
+/* short intros */
+.info{
+    display: flex;
+    margin: 1vh 1vw;
+    padding: 10px;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 5px;
+}
+.img1{
+    display: flex;
+    width: 40%;
+    height: auto;
+
+}
+.about{
+    display: flex;
+    padding: 2rem 1rem 2rem 0px;
+    font-size: 1.1rem;
+    word-wrap:break-word;
+    width: 40%;
+    margin-left: auto;
+    word-spacing:2px;
+
+}
+.hori{
+    border-bottom: 1px solid rgb(160, 156, 156);
+    margin: 1vh 4vw;
+}
+.hori{
+    margin-top: 5vh;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap:10px;
+}
+.item{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(138, 255, 247, 0.637);
+}
